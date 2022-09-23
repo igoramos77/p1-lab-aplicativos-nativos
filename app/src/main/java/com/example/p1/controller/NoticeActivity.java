@@ -3,7 +3,6 @@ package com.example.p1.controller;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.p1.R;
@@ -15,8 +14,8 @@ public class NoticeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.noticecontent);
 
-        TextView title = findViewById(R.id.second_text_view);
-        TextView subtitle = findViewById(R.id.subtitle_text);
+        TextView title = findViewById(R.id.notice_title_text_view);
+        TextView subtitle = findViewById(R.id.notice_subtitle_text_view);
 
         Bundle bundle = getIntent().getExtras();
         bundle.getBundle("key");
