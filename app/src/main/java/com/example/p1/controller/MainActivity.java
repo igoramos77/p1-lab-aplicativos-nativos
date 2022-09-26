@@ -40,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
                 object.putString("subtitle", subTitle);
                 intent.putExtras(object);
                 startActivity(intent);
-                finish();
-
             }
         });
     }

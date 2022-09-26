@@ -46,7 +46,7 @@ public class NoticeAdapter extends BaseAdapter {
         TextView textViewSubTitle = convertView.findViewById(R.id.textViewSubTitle);
 
         textViewTime.setText(news.getCreated_at());
-        textViewTitle.setText(news.getTitle().toUpperCase(Locale.ROOT));
+        textViewTitle.setText(news.getTitle());
         textViewSubTitle.setText(news.getSubtitle());
 
         return convertView;
