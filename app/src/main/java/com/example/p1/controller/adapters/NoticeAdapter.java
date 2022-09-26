@@ -49,6 +49,7 @@ public class NoticeAdapter extends BaseAdapter {
         textViewTitle.setText(news.getTitle());
         textViewSubTitle.setText(news.getSubtitle());
 
+
         return convertView;
     }
 

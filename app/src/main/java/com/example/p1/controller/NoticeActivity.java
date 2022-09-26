@@ -16,6 +16,7 @@ public class NoticeActivity extends AppCompatActivity {
 
         TextView title = findViewById(R.id.notice_title_text_view);
         TextView subtitle = findViewById(R.id.notice_subtitle_text_view);
+        TextView fakeAuthor = findViewById(R.id.notice_fakeauthor_text_view);
 
         Bundle bundle = getIntent().getExtras();
         bundle.getBundle("key");

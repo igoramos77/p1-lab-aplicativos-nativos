@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 Bundle object = new Bundle();
                 object.putString("title", title);
                 object.putString("subtitle", subTitle);
+
                 intent.putExtras(object);
                 startActivity(intent);
             }
